@@ -1,0 +1,23 @@
+{
+  "name": "voidexchange",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "hardhat": "npx hardhat node",
+    "compile": "npx hardhat compile --show-stack-traces",
+    "test": "npx hardhat test --network hardhat --show-stack-traces",
+    "coverage": "npx hardhat clean && npx hardhat coverage --show-stack-traces --network hardhat",
+    "deploy": "npx hardhat run --network hardhat scripts/deploy.js",
+    "localhost-deploy": "npx hardhat run --network localhost scripts/deployLocalhost.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-network-helpers": "^1.0.8",
+    "@nomicfoundation/hardhat-toolbox": "^2.0.2",
+    "@openzeppelin/contracts": "^4.8.2",
+    "dotenv": "^16.0.3",
+    "hardhat": "^2.13.0"
+  }
+}
