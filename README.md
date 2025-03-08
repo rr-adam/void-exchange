@@ -4,6 +4,9 @@
 
 A decentralized exchange platform with smart contracts built on Ethereum and a React.js frontend.
 
+![image](https://github.com/user-attachments/assets/78a7065f-3a55-4d15-9366-d72d3a054879)
+
+
 ## Overview
 
 VoidExchange is a DEX (Decentralized Exchange) that allows users to:
@@ -94,6 +97,8 @@ Follow these instructions to set up the project locally.
 
 ### Token Swapping
 
+![image](https://github.com/user-attachments/assets/ce3fade5-2fa1-420c-a491-aadeebf932ac)
+
 1. Navigate to the swap screen by clicking "Open app" on the landing page
 2. Connect your MetaMask wallet if prompted
 3. Select tokens to swap by clicking the blue button in each field
@@ -102,6 +107,8 @@ Follow these instructions to set up the project locally.
 5. Click "Swap" to execute the transaction
 
 ### Managing Liquidity
+
+![image](https://github.com/user-attachments/assets/797a53e8-870f-44b5-aa8d-64ef360f1e2d)
 
 1. Navigate to the "Pool" tab
 2. View your current liquidity positions
